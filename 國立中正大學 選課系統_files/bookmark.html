@@ -1,0 +1,170 @@
+
+<!-- saved from url=(0116)https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/bookmark.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&m=0 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv="refresh" content="180; 
+        URL=bookmark.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522">
+  <title>主選單</title>
+  
+    
+  <style>
+   SPAN.TreeviewSpanArea A {
+     font-size: 10pt; 
+     font-family: verdana,helvetica; 
+     text-decoration: none;
+     color: BLACK
+   SPAN.TreeviewSpanArea A:hover {
+     color: '#820082';}
+   BODY {
+     background-color: white;}
+   TD {
+     font-size: 10pt; 
+     font-family: verdana,helvetica;}
+  </style>
+  <script>
+ 
+   $(document).ready(function() {
+      $.mobile.ajaxLinksEnabled = false;
+   });
+ 
+  function getQueryString(index) {
+    var paramExpressions;
+    var param
+    var val
+    paramExpressions = window.location.search.substr(1).split("&");
+    if (index < paramExpressions.length) {
+      param = paramExpressions[index]; 
+      if (param.length > 0) {
+        return eval(unescape(param));
+      }
+    }
+    return ""
+  }
+
+  </script>
+
+ </head>
+
+ <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" onresize="if (navigator.family == &#39;nn4&#39;) window.location.reload()" background="./ccu-sbg.jpg">
+  <script src="./ua.js.download"></script>
+  <script src="./ftiens4.js.download"></script>
+
+  <script type="text/javascript">
+USETEXTLINKS = 1
+STARTALLOPEN = 1
+USEFRAMES = 0
+USEICONS = 0
+WRAPTEXT = 1
+PRESERVESTATE = 1
+HIGHLIGHT = 1
+
+//
+// The following code constructs the tree.
+//
+  foldersTree = gFld("<b>主選單</b>", "")
+  aux2 = insFld(foldersTree, gFld("選課系統公告", ""))
+    insDoc(aux2, gLnk('R', '選課系統公告', 'announce.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+  aux2 = insFld(foldersTree, gFld("選課系統相關", ""))
+    insDoc(aux2, gLnk('R', '檢視已選修科目', 'Selected_View00.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '<SPAN style="background:YELLOW; color:RED">我的選課計畫</SPAN>', 'My_Plan_Course.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '檢視篩選公告', 'View_Warning.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '檢視畢業資格審查表', 'Print_Graduate_pdf.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '檢視選課結果單PDF', 'Print_Course_pdf.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '我的加簽單', 'My_Concent_Forms.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '列印選課單', 'Print_Course.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '更改密碼', 'Change_Password00.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+
+    aux2 = insFld(foldersTree, gFld("資料查詢", ""))
+    insDoc(aux2, gLnk('R', '查詢開課資料', 'https://kiki.ccu.edu.tw/~ccmisp06/Course/index.html'))
+insDoc(aux2, gLnk('R', '進階開課資料查詢', '../Query/Query_by_time1.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&get_my_table=1'))
+insDoc(aux2, gLnk('R', '支援本班課程', 'Support_Courses.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '跨領域學程', 'Show_All_GRO.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '所有異動科目', 'Update_Course.php'))
+insDoc(aux2, gLnk('R', '成績查詢', '../Query/index.html'))
+insDoc(aux2, gLnk('R', '上學期功課表', 'Selected_View00.cgi?year=107&term=1&session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+insDoc(aux2, gLnk('R', '上學期選課單', 'Print_Course.cgi?year=107&term=1&session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522'))
+	
+	aux2 = insFld(foldersTree, gFld("問題與表單下載", ""))
+	
+	insDoc(aux2, gLnk('R', '一般問題', 'https://kiki.ccu.edu.tw/contact.html'))
+insDoc(aux2, gLnk('R', '系統操作手冊', 'https://kiki.ccu.edu.tw/user_manual/user_manual.htm'))
+insDoc(aux2, gLnk('R', '課表doc檔', 'https://kiki.ccu.edu.tw/ccu_timetable.doc'))
+  
+   
+  
+foldersTree.treeID = "FramelessHili"
+
+
+  </script> 
+  <!--SCRIPT src="bookmark.js"--><!--/SCRIPT-->
+  
+
+  <table border="0"><tbody><tr>
+      <td valign="TOP"><font size="2">王宏祥 同學, 歡迎!<br>您本次的登入時間是:[2019/3/5 16:21:17]<br></font>
+  <br>
+  <span style="background-color:LIGHTGREEN;padding:2px;margin-bottom:2px; box-shadow: 3px 3px 2px #888888;">
+    <a target="_top" href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/logout.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522">
+    <!--  <IMG border=0 src="https://kiki.ccu.edu.tw/~ccmisp06/Graph/logout.jpg" alt="我要登出系統"></A>  -->
+      登出系統	</a>
+  </span>
+  
+  <center><table border="0"><tbody><tr><td><hr></td></tr><tr><td bgcolor="YELLOW">提醒您, 選課密碼請定期更新(最好三個月一次), 以策安全!<br>您的密碼已經有 168 天沒有更新了!</td></tr><tr><td><hr></td></tr></tbody></table></center>
+ <table cellpadding="0" cellspacing="0" border="0">
+  <tbody><tr>
+   <td valign="top">
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+     <tbody><tr>
+      <td bgcolor="#ECECD9">
+
+        <table cellspacing="0" cellpadding="2" border="0" width="100%">
+         <tbody><tr>
+          <td bgcolor="white">
+
+		  
+ <table border="0"><tbody><tr><td><font size="-2"><a href="http://www.treemenu.net/" target="_blank"></a></font></td></tr></tbody></table>
+
+ <span class="TreeviewSpanArea">
+  <script>initializeDocument()</script><div id="folder0" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top"><img src="./ftv2blank.gif" height="2" width="2"></td><td valign="middle" width="100%"><a><b>主選單</b></a></td></tr></tbody></table></div><div id="folder1" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><a href="javascript:clickOnNode(&quot;1&quot;)"><img name="nodeIcon1" id="nodeIcon1" src="./ftv2mnode.gif" width="16" height="22" border="0"></a></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="2"></td><td valign="middle" width="100%"><a>選課系統公告</a></td></tr></tbody></table></div><div id="item2" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2lastnode.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/announce.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;2&#39;, &#39;announce.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink2">選課系統公告</a></td></tr></tbody></table></div><div id="folder3" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><a href="javascript:clickOnNode(&quot;3&quot;)"><img name="nodeIcon3" id="nodeIcon3" src="./ftv2mnode.gif" width="16" height="22" border="0"></a></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="2"></td><td valign="middle" width="100%"><a>選課系統相關</a></td></tr></tbody></table></div><div id="item4" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Selected_View00.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;4&#39;, &#39;Selected_View00.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink4">檢視已選修科目</a></td></tr></tbody></table></div><div id="item5" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/My_Plan_Course.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;5&#39;, &#39;My_Plan_Course.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink5"><span style="background:YELLOW; color:RED">我的選課計畫</span></a></td></tr></tbody></table></div><div id="item6" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/View_Warning.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;6&#39;, &#39;View_Warning.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink6">檢視篩選公告</a></td></tr></tbody></table></div><div id="item7" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Print_Graduate_pdf.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;7&#39;, &#39;Print_Graduate_pdf.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink7">檢視畢業資格審查表</a></td></tr></tbody></table></div><div id="item8" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Print_Course_pdf.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;8&#39;, &#39;Print_Course_pdf.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink8">檢視選課結果單PDF</a></td></tr></tbody></table></div><div id="item9" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/My_Concent_Forms.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;9&#39;, &#39;My_Concent_Forms.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink9">我的加簽單</a></td></tr></tbody></table></div><div id="item10" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Print_Course.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;10&#39;, &#39;Print_Course.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink10">列印選課單</a></td></tr></tbody></table></div><div id="item11" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2lastnode.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Change_Password00.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;11&#39;, &#39;Change_Password00.php?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink11">更改密碼</a></td></tr></tbody></table></div><div id="folder12" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><a href="javascript:clickOnNode(&quot;12&quot;)"><img name="nodeIcon12" id="nodeIcon12" src="./ftv2mnode.gif" width="16" height="22" border="0"></a></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="2"></td><td valign="middle" width="100%"><a>資料查詢</a></td></tr></tbody></table></div><div id="item13" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/Course/index.html" target="basefrm" onclick="clickOnLink(&#39;13&#39;, &#39;https://kiki.ccu.edu.tw/~ccmisp06/Course/index.html&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink13" style="">查詢開課資料</a></td></tr></tbody></table></div><div id="item14" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/Query/Query_by_time1.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&amp;get_my_table=1" target="basefrm" onclick="clickOnLink(&#39;14&#39;, &#39;../Query/Query_by_time1.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&amp;get_my_table=1&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink14" style="color: white; background-color: blue;">進階開課資料查詢</a></td></tr></tbody></table></div><div id="item15" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Support_Courses.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;15&#39;, &#39;Support_Courses.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink15">支援本班課程</a></td></tr></tbody></table></div><div id="item16" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Show_All_GRO.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;16&#39;, &#39;Show_All_GRO.cgi?session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink16">跨領域學程</a></td></tr></tbody></table></div><div id="item17" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Update_Course.php" target="basefrm" onclick="clickOnLink(&#39;17&#39;, &#39;Update_Course.php&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink17">所有異動科目</a></td></tr></tbody></table></div><div id="item18" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/Query/index.html" target="basefrm" onclick="clickOnLink(&#39;18&#39;, &#39;../Query/index.html&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink18">成績查詢</a></td></tr></tbody></table></div><div id="item19" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Selected_View00.cgi?year=107&amp;term=1&amp;session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;19&#39;, &#39;Selected_View00.cgi?year=107&amp;term=1&amp;session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink19">上學期功課表</a></td></tr></tbody></table></div><div id="item20" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2vertline.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2lastnode.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/~ccmisp06/cgi-bin/class_new/Print_Course.cgi?year=107&amp;term=1&amp;session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522" target="basefrm" onclick="clickOnLink(&#39;20&#39;, &#39;Print_Course.cgi?year=107&amp;term=1&amp;session_id=61siDfTN3QUmqn7DAhAdz6Um5Rvsqyr2I522&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink20">上學期選課單</a></td></tr></tbody></table></div><div id="folder21" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top"><a href="javascript:clickOnNode(&quot;21&quot;)"><img name="nodeIcon21" id="nodeIcon21" src="./ftv2mlastnode.gif" width="16" height="22" border="0"></a></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="2"></td><td valign="middle" width="100%"><a>問題與表單下載</a></td></tr></tbody></table></div><div id="item22" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top"><img src="./ftv2blank.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/contact.html" target="basefrm" onclick="clickOnLink(&#39;22&#39;, &#39;https://kiki.ccu.edu.tw/contact.html&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink22">一般問題</a></td></tr></tbody></table></div><div id="item23" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top"><img src="./ftv2blank.gif" width="16" height="22"></td><td valign="top" background="./ftv2vertline.gif"><img src="./ftv2node.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/user_manual/user_manual.htm" target="basefrm" onclick="clickOnLink(&#39;23&#39;, &#39;https://kiki.ccu.edu.tw/user_manual/user_manual.htm&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink23">系統操作手冊</a></td></tr></tbody></table></div><div id="item24" style="display:block;"><table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td valign="top"><img src="./ftv2blank.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2lastnode.gif" width="16" height="22"></td><td valign="top"><img src="./ftv2blank.gif" height="2" width="3"></td><td valign="middle" width="100%"><a href="https://kiki.ccu.edu.tw/ccu_timetable.doc" target="basefrm" onclick="clickOnLink(&#39;24&#39;, &#39;https://kiki.ccu.edu.tw/ccu_timetable.doc&#39;,&#39;basefrm&#39;);return false;" id="itemTextLink24">課表doc檔</a></td></tr></tbody></table></div>
+  <noscript>
+   A tree for site navigation will open here if you enable JavaScript in your browser.
+  </noscript>
+ </span>
+
+          </td>
+         </tr>
+        </tbody></table>
+
+       </td>
+      </tr>
+     </tbody></table>
+
+    </td>
+    <td bgcolor="white" valign="top">
+
+     <table cellpadding="10" cellspacing="0" border="0" width="100%">
+      <tbody><tr>
+       <td>
+
+
+       </td>
+      </tr>
+     </tbody></table>
+
+    </td>
+   </tr>
+  </tbody></table>
+
+      </td>
+      <td valign="TOP">
+        <!--IMG src="pic/vline.jpg"-->
+      </td>
+    </tr>
+  </tbody></table>
+
+ 
+
+
+
+</body></html>
